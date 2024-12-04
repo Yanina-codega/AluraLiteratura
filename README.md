@@ -1,6 +1,7 @@
 # 📚 Alura Literatura 📖
 
-Programa esta desarrollado con JPA, hibernate y postgreSQL en java 17 utilizando la API de codigo abierto de [GUTENDEX](https://gutendex.com/).
+Programa que esta desarrollado con JPA, hibernate y postgreSQL en java 17 utilizando la API de codigo abierto de [GUTENDEX](https://gutendex.com/).
+como parte de desafio de alura 
 
 ## Funcionalidades
 Esta compuesto por un menu principal que permite ⬇️
