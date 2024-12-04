@@ -153,14 +153,14 @@ public class Principal {
             System.out.println("Idioma no válido, intenta de nuevo");
             return;
         }
-        List<Libros> iBooksRepositoryByLanguagesContaining = libroRepository.findByLenguajes(opcion);
+        List<Libros> libroRepositoryByLenguajes = libroRepository.findByLenguajes(opcion);
 
-        if (iBooksRepositoryByLanguagesContaining.isEmpty()) {
+        if (libroRepositoryByLenguajes.isEmpty()) {
             System.out.println("No hay libros registrados en ese idioma");
             return;
         }
         System.out.println("----- LOS LIBROS REGISTRADOS EN EL IDIOMA SELECCIONADO SON: -----\n");
-        iBooksRepositoryByLanguagesContaining.stream()
+        libroRepositoryByLenguajes.stream()
                 .sorted(Comparator.comparing(Libros::getTitulo))
                 .forEach(System.out::println);
 
