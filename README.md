@@ -2,7 +2,7 @@
 
 Programa esta desarrollado con JPA, hibernate y postgreSQL en java 17 utilizando la API de codigo abierto de [GUTENDEX](https://gutendex.com/).
 
-##Funcionalidades
+## Funcionalidades
 Esta compuesto por un menu principal que permite ⬇️
 
 - Buscar libros para posteriormente registrarlo en la base de datos
